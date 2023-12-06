@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./styles/1.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/2.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/3.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/4.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/5.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/6.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/7.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/8.css" />
+
+
+
+</head>
+
+<p> 
+    What is HTTP? Why is HTTP/2 faster than HTTP/1.1?
+HTTP stands for hypertext transfer protocol, and it is the basis for almost all web applications. More specifically, HTTP is the method computers and servers use to request and send information. For instance, when someone navigates to cloudflare.com on their laptop, their web browser sends an HTTP request to the Cloudflare servers for the content that appears on the page. Then, Cloudflare servers send HTTP responses with the text, images, and formatting that the browser displays to the user.
+
+What is HTTP/1.1?
+The first usable version of HTTP was created in 1997. Because it went through several stages of development, this first version of HTTP was called HTTP/1.1. This version is still in use on the web.
+
+What is HTTP/2?
+In 2015, a new version of HTTP called HTTP/2 was created. HTTP/2 solves several problems that the creators of HTTP/1.1 did not anticipate. In particular, HTTP/2 is much faster and more efficient than HTTP/1.1. One of the ways in which HTTP/2 is faster is in how it prioritizes content during the loading process.
+
+What is prioritization?
+In the context of web performance, prioritization refers to the order in which pieces of content are loaded. Suppose a user visits a news website and navigates to an article. Should the photo at the top of the article load first? Should the text of the article load first? Should the banner ads load first?
+
+Prioritization affects a webpage's load time. For example, certain resources, like large JavaScript files, may block the rest of the page from loading if they have to load first. More of the page can load at once if these render-blocking resources load last.
+
+In addition, the order in which these page resources load affects how the user perceives page load time. If only behind-the-scenes content (like a CSS file) or content the user can't see immediately (like banner ads at the bottom of the page) loads first, the user will think the page is not loading at all. If the content that's most important to the user loads first, such as the image at the top of the page, then the user will perceive the page as loading faster.
+
+How does prioritization in HTTP/2 affect performance?
+In HTTP/2, developers have hands-on, detailed control over prioritization. This allows them to maximize perceived and actual page load speed to a degree that was not possible in HTTP/1.1.
+
+HTTP/2 offers a feature called weighted prioritization. This allows developers to decide which page resources will load first, every time. In HTTP/2, when a client makes a request for a webpage, the server sends several streams of data to the client at once, instead of sending one thing after another. This method of data delivery is known as multiplexing. Developers can assign each of these data streams a different weighted value, and the value tells the client which data stream to render first.
+
+Imagine that Alice wants to read a novel that her friend Bob wrote, but both Alice and Bob only communicate through the regular mail. Alice sends a letter to Bob and asks Bob to send her his novel. Bob decides to send the novel HTTP/1.1-style: He mails one chapter at a time, and he only mails the next chapter after receiving a reply letter from Alice confirming that she received the previous chapter. Using this method of content delivery, it takes Alice many weeks to read Bob's novel.
+</p>
+
+    <img src="./pic/1.jpg" width="50" height="60">
+    <img src="./pic/2.jpg" width="50" height="60">
+    <img src="./pic/3.jpg" width="50" height="60">
+    <img src="./pic/4.jpg" width="50" height="60">
+    <img src="./pic/5.jpg" width="50" height="60">
+    <img src="./pic/6.jpg" width="50" height="60">
+    <img src="./pic/7.jpg" width="50" height="60">
+    <img src="./pic/8.jpg" width="50" height="60">
+    <img src="./pic/9.jpg" width="50" height="60">
+    <img src="./pic/10.jpg" width="50" height="60">
+    <img src="./pic/11.jpg" width="50" height="60">
+    <img src="./pic/12.jpg" width="50" height="60">
+
+    
+    
